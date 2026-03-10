@@ -10,7 +10,7 @@ const FASHION_ITEMS = [
   { image: "/photos/kayvon-12.jpeg", era: "2020", label: "Styled by: Kayvon's Mom (on sale)", item: "Clearance Rack Special", rating: "Golabi" },
   { image: "/photos/kayvon-15.jpeg", era: "2021", label: "Transition Era", item: "Trying Too Hard Phase", rating: "Still Golabi" },
   { image: "/photos/kayvon-18.jpeg", era: "2022", label: "Self-styled", item: "\"I have style now\" Era", rating: "Golabi (in denial)" },
-  { image: "/photos/kayvon-22.jpeg", era: "2023", label: "Self-styled (debatable)", item: "The \"Evolved\" Look", rating: "Permanently Golabi" },
+  { image: "/photos/kayvon-25.jpeg", era: "2023", label: "Self-styled (debatable)", item: "The \"Evolved\" Look", rating: "Permanently Golabi" },
 ];
 
 export default function FashionCarousel() {

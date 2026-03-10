@@ -4,11 +4,14 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-const ALL_PHOTOS = Array.from({ length: 40 }, (_, i) => {
-  const num = String(i + 1).padStart(2, "0");
-  const ext = [2, 14, 15, 16, 17].includes(i + 1) ? "jpg" : "jpeg";
-  return `/photos/kayvon-${num}.${ext}`;
-});
+const EXCLUDED = [22];
+const ALL_PHOTOS = Array.from({ length: 40 }, (_, i) => i + 1)
+  .filter((n) => !EXCLUDED.includes(n))
+  .map((n) => {
+    const num = String(n).padStart(2, "0");
+    const ext = [2, 14, 15, 16, 17].includes(n) ? "jpg" : "jpeg";
+    return `/photos/kayvon-${num}.${ext}`;
+  });
 
 const CAPTIONS = [
   "Peak golabi energy",
