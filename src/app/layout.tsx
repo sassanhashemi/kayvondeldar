@@ -15,10 +15,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kayvon Deldar — Official Website",
   description: "Golabi. Analyst. Schedule Dictator. The official roast website of Kayvon Deldar.",
+  metadataBase: new URL("https://kayvondeldar.com"),
+  icons: {
+    icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Kayvon Deldar — Official Website",
-    description: "Golabi. Analyst. Schedule Dictator.",
+    description: "Golabi. Analyst. Schedule Dictator. The official roast website of Kayvon Deldar.",
+    url: "https://kayvondeldar.com",
+    siteName: "kayvondeldar.com",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Kayvon Deldar — Golabi. Analyst. Schedule Dictator.",
+      },
+    ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kayvon Deldar — Official Website",
+    description: "Golabi. Analyst. Schedule Dictator. The official roast website of Kayvon Deldar.",
+    images: ["/og-image.png"],
   },
 };
 
