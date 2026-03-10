@@ -30,7 +30,7 @@ const TESTIMONIALS = [
   {
     name: "Nikki",
     title: "Girlfriend & Handler-in-Chief",
-    quote: "I don't control his schedule. I just happen to have plans every time his friends ask him to hang out. It's a coincidence.",
+    quote: "He once made me wait 20 minutes because he was 'almost done' perfecting his outfit. We were going to CVS.",
     connection: "❤️",
   },
 ];
