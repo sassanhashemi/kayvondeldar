@@ -8,7 +8,6 @@ const EXCUSES = [
   "He has a 'work thing' at Voxel.",
   "He's free but you're not meeting at the right time.",
   "He's busy analyzing last week's poker hand.",
-  "He wants to come but only if his girlfriend can come to boys' night.",
   "He's preparing his Sunday league game tape.",
   "He's reorganizing his post-GAP wardrobe.",
   "He's writing a 3-page analysis of why you should have called on the river.",

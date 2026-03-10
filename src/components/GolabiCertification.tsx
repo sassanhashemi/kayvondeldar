@@ -87,8 +87,8 @@ export default function GolabiCertification() {
             </p>
 
             {/* Signatures */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 border-t border-amber-800/20 pt-6">
-              {["Sassan", "Kian", "Adi", "Imon"].map((name) => (
+            <div className="grid grid-cols-3 md:grid-cols-5 gap-4 border-t border-amber-800/20 pt-6">
+              {["Sassan", "Kian", "Adi", "Imon", "Nikki"].map((name) => (
                 <div key={name}>
                   <p className="font-serif italic text-amber-800 text-lg">{name}</p>
                   <div className="w-full h-px bg-amber-800/30 mt-1" />

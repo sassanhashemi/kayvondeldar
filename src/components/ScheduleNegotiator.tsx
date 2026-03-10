@@ -12,7 +12,6 @@ const EXCUSES = [
   "Kayvon is preparing his Sunday League scouting report.",
   "This conflicts with Kayvon's credit card roulette recovery session.",
   "Kayvon needs at least 6 weeks notice for social events.",
-  "Kayvon would come but only if his girlfriend can come to boys' night.",
   "Kayvon is free but spiritually unavailable.",
   "Kayvon's handler is checking the handler's handler.",
   "Kayvon already committed to staring at his phone that day.",

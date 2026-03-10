@@ -11,7 +11,6 @@ const REJECTION_MESSAGES = [
   "This conflicts with Kayvon's imaginary plans.",
   "Kayvon is free but has decided you're not.",
   "Sorry, Kayvon has a 'work thing' at Voxel.",
-  "Kayvon would like to invite his girlfriend. Is that okay?",
   "Kayvon is reviewing last week's poker hand at this time.",
   "Kayvon needs at least 3 business days notice.",
   "This time was available 5 minutes ago. Too late.",

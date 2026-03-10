@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
@@ -16,6 +16,14 @@ const FASHION_ITEMS = [
 export default function FashionCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showRating, setShowRating] = useState(false);
+
+  // Preload all carousel images on mount
+  useEffect(() => {
+    FASHION_ITEMS.forEach(({ image }) => {
+      const img = new window.Image();
+      img.src = image;
+    });
+  }, []);
 
   const next = () => {
     setShowRating(false);

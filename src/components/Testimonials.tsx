@@ -27,6 +27,12 @@ const TESTIMONIALS = [
     quote: "Planning anything with Kayvon requires a minimum 2-week lead time, handler approval, and a backup plan for when he cancels anyway.",
     connection: "1st",
   },
+  {
+    name: "Nikki",
+    title: "Girlfriend & Handler-in-Chief",
+    quote: "I don't control his schedule. I just happen to have plans every time his friends ask him to hang out. It's a coincidence.",
+    connection: "❤️",
+  },
 ];
 
 export default function Testimonials() {
@@ -78,8 +84,8 @@ export default function Testimonials() {
 
               {/* LinkedIn engagement */}
               <div className="flex items-center gap-4 mt-4 pt-3 border-t border-zinc-800 text-zinc-500 text-xs">
-                <span>&#128077; {[42, 18, 31, 27][i]}</span>
-                <span>&#128514; {[23, 11, 19, 8][i]}</span>
+                <span>&#128077; {[42, 18, 31, 27, 56][i]}</span>
+                <span>&#128514; {[23, 11, 19, 8, 34][i]}</span>
                 <span className="ml-auto">Kayvon Deldar reacted: &#128544;</span>
               </div>
             </motion.div>
