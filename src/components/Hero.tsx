@@ -1,12 +1,9 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function Hero() {
-  const [hoverScale, setHoverScale] = useState(1);
-
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden">
       {/* Background gradient */}
@@ -31,11 +28,7 @@ export default function Hero() {
 
         {/* Photo */}
         <motion.div
-          className="relative w-48 h-48 md:w-64 md:h-64 mx-auto mb-8 rounded-full overflow-hidden border-4 border-pink-500/30 cursor-pointer"
-          onMouseEnter={() => setHoverScale(1.15)}
-          onMouseLeave={() => setHoverScale(1)}
-          animate={{ scale: hoverScale }}
-          transition={{ type: "spring", stiffness: 300 }}
+          className="relative w-48 h-48 md:w-64 md:h-64 mx-auto mb-8 rounded-full overflow-hidden border-4 border-pink-500/30 pointer-events-none select-none"
         >
           <Image
             src="/photos/kayvon-01.jpeg"
